@@ -1,0 +1,15 @@
+
+public class demo1{
+
+   public static void main(String x[]){
+             
+    int a=10;b=5,c=1,r;
+    //r=a++c++b
+    //r=a(2)-(6)
+    //r=10-2=8
+    //r=8-6
+    //r=2
+
+      System.out.println(r);
+  }
+}
