@@ -1,0 +1,33 @@
+import java.util.*;
+
+public class price{
+
+public static void main(String x[]){
+
+Scanner sc= new Scanner(System.in);
+  int costprice,selligprice,prifit,loss;
+    
+System.out.println("Enter a price");
+
+costprice=sc.nextInt();
+
+System.out.println("Enter a costprice");
+
+
+selligprice=sc.nextInt();
+
+System.out.println("Enter a sellingprice");
+
+
+if(costprice<selligprice){
+    
+    prifit= costprice-selligprice;
+   System.out.pritnln("PROFIT ")
+
+}
+else{
+System.out.println("LOSS");
+
+}
+}
+}

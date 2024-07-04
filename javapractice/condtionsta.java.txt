@@ -1,0 +1,41 @@
+imoprt java.util.*;
+
+public class condtionsta{
+
+public static void main(String x[]){
+
+   Scanner sc=new Scanner(System.in);
+
+  float math,phy,chem;
+  float total;
+
+System.out.pritnln("Enter a matha subject mark");
+  math=sc.nextInt();
+
+System.out.println("Enter a phy mark");
+phy=sc.nextInt();
+
+System.out.println("Enter a chem mark");
+chem=sc.nextInt();
+  
+   if(math>=65 && phy>=55 && chem>=50){
+ 
+   total=math+phy+chem;
+    System.out.println("total is=");
+
+    if( total>=190))
+{
+      System.out.println("uheI");
+}
+else{
+
+   System.out.println("eligible");
+}
+else{
+   System.out.println("not");
+}
+}
+
+}
+
+}

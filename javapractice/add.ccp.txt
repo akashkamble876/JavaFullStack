@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main(){
+
+  int a,b,c;
+
+printf("Enter number");
+
+
+
+printf("Enter first nunber")
+scanf("A:%d",&a);
+
+printf("Enter first nunber")
+scanf("b:%d",&b);
+c=a+b;
+
+printf("c:%d",c);
+
+getch();
+}
